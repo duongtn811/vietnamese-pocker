@@ -1,7 +1,7 @@
 import images from './json/images.json'
 
 export const FIREBASE_CONFIG = {
-  apiKey: 'AIzaSyDGCpgkZ8XJE_e2Xwp-9iVUtFOfKVTVbM0',
+  apiKey: 'API-key',
   authDomain: 'card-game-1.firebaseapp.com',
   databaseURL: 'https://card-game-1.firebaseio.com',
   projectId: 'card-game-1',
