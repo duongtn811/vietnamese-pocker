@@ -164,7 +164,7 @@ class MauBinh extends Phaser.Scene {
           },
           drawText: {
             x: world.width - 300,
-            y: 310,
+            y: 315,
           }
         },
         4: {
@@ -201,7 +201,7 @@ class MauBinh extends Phaser.Scene {
           },
           drawText: {
             x: 250,
-            y: 310,
+            y: 315,
           }
         }
       }
@@ -732,7 +732,7 @@ class MauBinh extends Phaser.Scene {
     console.log('handleEndGame', result)
     const world = store.getAll()
 
-    this.createWaitingForPlayText()
+    // this.createWaitingForPlayText()
     if (this.waitingTextEnd) {
       this.tweens.killTweensOf(this.waitingTextEnd)
       this.waitingTextEnd.setVisible(false)
